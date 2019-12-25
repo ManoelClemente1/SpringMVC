@@ -8,6 +8,8 @@ import br.com.casadocodigo.loja.models.Produto;
 @Controller
 public class ProdutosController {
 	
+	private ProdutoDAO produtoDao;
+	
 	@RequestMapping("/produtos/form")
 	public String form() {
 		return "produtos/form";
