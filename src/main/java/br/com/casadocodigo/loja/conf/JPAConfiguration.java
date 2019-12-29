@@ -28,7 +28,7 @@ public class JPAConfiguration {
 		dataSource.setPassword("1234");
 		dataSource.setUrl("jdbc:mysql://localhost/casadocodigo");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		factoryBean.setDataSource(dataSource);
+		factoryBean.setDataSource(dataSource); 
 		
 		Properties properties = new Properties();
 		properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
